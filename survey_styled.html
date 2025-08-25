@@ -57,14 +57,14 @@
 <body>
     <div class="container">
         <h2>Student Survey Form</h2>
-        <form action="#" method="post">
+        <form action="http://localhost:8000/api/survey" method="post">
             <input type="text" id="student_name" name="student_name" placeholder="Student Name" required>
             <input type="text" id="student_id" name="student_id" placeholder="Student ID" required>
             <input type="email" id="email" name="email" placeholder="Email" required>
             <input type="text" id="course" name="course" placeholder="Course" required>
             <input type="number" id="year" name="year" placeholder="Year" min="1" max="5" required>
             <textarea id="feedback" name="feedback" placeholder="Enter your feedback..." required></textarea>
-            <input type="submit" value="Submit Survey" a href="survey_styled.html">
+            <input type="submit" value="Submit Survey">
         </form>
     </div>
 </body>
